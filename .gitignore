@@ -1,0 +1,47 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.log
+.crash.log
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform directories
+.terraform/
+.terraform.d/
+
+# Local sensitive files
+*credentials*
+*.pem
+
+# Ignore any files or directories starting with 'terraform'
+terraform.tfstate*
+terraform.tfstate.backup
+terraform.tfstate.d/
+
+# Ignore provider files
+providers/
+
+# Ignore configuration lock file
+terraform.lock.hcl
+
+# Ignore metadata files
+.DS_Store
+
+# Ignore system files
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Node modules (if applicable)
+node_modules/
